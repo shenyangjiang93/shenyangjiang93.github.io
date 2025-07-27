@@ -7,7 +7,7 @@ Assistant Professor of Operations Management, at The Hong Kong Polytechnic Unive
 My Email: shenyang.jiang@polyu.edu.hk
 
 ### About Me
-I am an Assistant Professor of Operations Management at Tongji University. My primary research interests lie in the field of supply chain and operations management. As an empiricist, I am passionate in applying and developing data science tools to solve novel challenges in business. I obtained my Ph.D. degree from School of Management, Zhejiang University in 2021.
+I am an Assistant Professor of Operations Management at The Hong Kong Polytechnic University. My primary research interests lie in the field of supply chain and operations management. As an empiricist, I am passionate in applying and developing data science tools to solve novel challenges in business. I obtained my Ph.D. degree from School of Management, Zhejiang University in 2021.
 
 ### Publication
 
