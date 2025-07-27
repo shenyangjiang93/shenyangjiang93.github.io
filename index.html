@@ -48,7 +48,48 @@
 
 
   <h2>Welcome to Shenyang's Homepage</h2>
-
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <style>
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+      max-width: 500px;
+      margin: 30px auto;
+      background: #fafafa;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+    .profile img {
+      width: 120px;      /* 调整这里的宽度, 比如120px */
+      height: 120px;     /* 调整这里的高度, 比如120px */
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #ddd;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.09);
+    }
+    .profile p {
+      margin: 6px 0;
+      font-size: 1rem;
+    }
+    @media (max-width: 600px) {
+      .profile {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+      .profile img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
   <div class="profile">
     <img src="./myimg.jpg" alt="Profile Photo">
     <div>
@@ -56,6 +97,7 @@
       <p>Email: <a href="mailto:shenyang.jiang@polyu.edu.hk">shenyang.jiang@polyu.edu.hk</a></p>
     </div>
   </div>
+</body>
 
   <h3>About Me</h3>
   <p>
@@ -81,7 +123,7 @@
   <ul>
     <li><strong>The Environmental Impact of Sharing Economies: Evidence from Dockless Bike Entry.</strong> <em>Production and Operations Management, Major Revision</em>, with Liu, Q., Qiu, L., Huo, B.</li>
     <li><strong>Does Green Supplier Make Customer Greener? The Moderating Effect of Dependence in Customer-Supplier Dyads.</strong>  <em>Manufacturing & Service Operations Management, Under 3rd Round Review</em>, with Zhao, X., Ye, Y., Huo, B.</li>
-    <li><strong>From Seeing to Signing Up:</strong> The Co-Creative Dance of Humans and AI in Cultivating Symbiotic Uniqueness for Enhanced User Engagement. <em>Under 2nd Major Revision at Information System Research</em>, with Lakhiwal, A., Liu, C., Duan, J.</li>
+    <li><strong>From Seeing to Signing Up: The Co-Creative Dance of Humans and AI in Cultivating Symbiotic Uniqueness for Enhanced User Engagement.</strong> <em>Under 2nd Major Revision at Information System Research</em>, with Lakhiwal, A., Liu, C., Duan, J.</li>
     <li><strong>The Roles of GPOs on Hospitals’ Operational Costs: A Complementary Institutional Logic Perspective.</strong> <em>Under Major Revision at Management Science</em>, with Wang, K., Yeung, A.C.L.</li>
     <li><strong>Rumors, Worker Productivity, and Team Performance.</strong> <em>Under Major Revision at Management Science</em>, with Zheng, Z., Staats, B.</li>
     <li><strong>Work from Home or Return to Office? The Long-term Impact of Work-from-Home Arrangements on Firms’ Operational Efficiency.</strong> <em>Under Major Revision at Production and Operations Management</em>, with Wang, K., Yeung, A.C.L., Cheung, T.C.E., Huo, B.</li>
