@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="google-site-verification" content="pGYuZZUDnO_qLOMzj6K1x4B4RjRJhzKeRTJtIvoClJE" />
   <title>Shenyang Jiang - Homepage</title>
   <style>
     body, html {
@@ -13,37 +12,40 @@
       background: #f5f6fa;
       font-family: 'Segoe UI', Arial, sans-serif;
       color: #333;
-      min-height: 100vh;
     }
     .container {
-      max-width: 900px;
+      max-width: 700px;
       margin: 0 auto;
-      padding: 2em 1em;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      padding: 32px 16px 40px 16px;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 4px 30px rgba(0,0,0,0.10);
     }
     h2 {
       text-align: center;
       color: #2d3647;
+      font-size: 2rem;
+      margin-top: 0;
+      margin-bottom: 1.2em;
+      letter-spacing: 0.5px;
+      font-weight: 600;
     }
     .profile {
       display: flex;
       align-items: center;
-      gap: 32px;
-      padding: 32px;
+      gap: 24px;
+      padding: 20px 0 16px 0;
       width: 100%;
-      max-width: 1100px;
-      background: #fafafa;
-      border-radius: 16px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      max-width: 700px;
+      background: none;
+      border-radius: 0;
+      box-shadow: none;
       justify-content: center;
-      margin-bottom: 2em;
+      margin-bottom: 1.8em;
     }
     .profile img {
-      width: 200px;
-      height: 200px;
+      width: 100px;
+      height: 100px;
       object-fit: cover;
       border-radius: 50%;
       border: 2px solid #ddd;
@@ -54,13 +56,13 @@
     .profile > div {
       flex: 1;
       min-width: 0;
-      text-align: center;
+      text-align: left;
     }
     .profile p {
-      margin: 10px 0;
-      font-size: 1.08rem;
+      margin: 6px 0;
+      font-size: 1rem;
       color: #34394a;
-      line-height: 1.6;
+      line-height: 1.7;
     }
     .profile a {
       color: #2e7ad3;
@@ -71,43 +73,58 @@
       text-decoration: underline;
     }
     h3 {
-      text-align: center;
       color: #2d3647;
-      margin-top: 2em;
-      margin-bottom: 0.5em;
+      margin-top: 2.5em;
+      margin-bottom: 0.6em;
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: left;
+      letter-spacing: 0.2px;
+    }
+    p, ul {
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-top: 0;
+      margin-bottom: 1.2em;
     }
     ul {
-      margin-top: 0;
-      margin-bottom: 2em;
       padding-left: 1.2em;
     }
-    @media (max-width: 900px) {
+    li {
+      margin-bottom: 0.7em;
+    }
+    @media (max-width: 800px) {
+      .container, .profile {
+        max-width: 98vw;
+      }
+      .profile {
+        gap: 14px;
+      }
+      .profile img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+    @media (max-width: 540px) {
+      .container {
+        padding: 8px 2vw 18px 2vw;
+      }
       .profile {
         flex-direction: column;
         align-items: center;
-        gap: 18px;
-        padding: 24px;
-        max-width: 98vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
       }
       .profile img {
-        width: 120px;
-        height: 120px;
-      }
-      .profile > div {
-        text-align: center;
-      }
-    }
-    @media (max-width: 600px) {
-      .container {
-        padding: 0.5em;
-      }
-      .profile {
-        padding: 12px;
-        border-radius: 8px;
+        width: 60px;
+        height: 60px;
       }
       h2 {
         font-size: 1.2rem;
-        margin-top: 12px;
+      }
+      h3 {
+        font-size: 1rem;
+        margin-top: 2em;
       }
     }
   </style>
@@ -121,17 +138,14 @@
         <p><strong>Assistant Professor of Operations Management</strong>, at The Hong Kong Polytechnic University.</p>
         <p>Email: <a href="mailto:shenyang.jiang@polyu.edu.hk">shenyang.jiang@polyu.edu.hk</a></p>
         <p>
-          Welcome to my homepage! My research interests include supply chain management, service operations, and data-driven decision making. Feel free to contact me for research collaboration or academic discussions.
+          Welcome! My research interests include supply chain management, service operations, and data-driven decision making. Feel free to contact me for research collaboration or academic discussions.
         </p>
       </div>
     </div>
 
     <h3>About Me</h3>
     <p>
-      I am an Assistant Professor of Operations Management at The Hong Kong Polytechnic University. 
-      My primary research interests lie in the field of supply chain and operations management. 
-      As an empiricist, I am passionate in applying and developing data science tools to solve novel challenges in business. 
-      I obtained my Ph.D. degree from School of Management, Zhejiang University in 2021.
+      I am an Assistant Professor of Operations Management at The Hong Kong Polytechnic University. My primary research interests lie in the field of supply chain and operations management. As an empiricist, I am passionate in applying and developing data science tools to solve novel challenges in business. I obtained my Ph.D. degree from School of Management, Zhejiang University in 2021.
     </p>
 
     <h3>Publication</h3>
@@ -166,7 +180,6 @@
       <li><strong>Patterns of IT use:</strong> the impact on green supply chain management and firm performance. <em>Industrial Management & Data Systems, 2020</em>, with Han, Z., Huo, B.</li>
       <li><strong>Does corporate social responsibility conduce to the mitigation of liability of newness? Evidence from China.</strong> <em>Small Business Economics, 2021</em>, with Yan Z., Wei, J.</li>
     </ul>
-
   </div>
 </body>
 </html>
