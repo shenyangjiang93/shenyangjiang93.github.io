@@ -16,15 +16,16 @@
       min-height: 100vh;
     }
     .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2em 1em;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
     }
     h2 {
       text-align: center;
-      margin-top: 0;
       color: #2d3647;
     }
     .profile {
@@ -32,11 +33,13 @@
       align-items: center;
       gap: 32px;
       padding: 32px;
+      width: 100%;
       max-width: 1100px;
       background: #fafafa;
       border-radius: 16px;
       box-shadow: 0 4px 16px rgba(0,0,0,0.08);
       justify-content: center;
+      margin-bottom: 2em;
     }
     .profile img {
       width: 200px;
@@ -67,6 +70,17 @@
     .profile a:hover {
       text-decoration: underline;
     }
+    h3 {
+      text-align: center;
+      color: #2d3647;
+      margin-top: 2em;
+      margin-bottom: 0.5em;
+    }
+    ul {
+      margin-top: 0;
+      margin-bottom: 2em;
+      padding-left: 1.2em;
+    }
     @media (max-width: 900px) {
       .profile {
         flex-direction: column;
@@ -84,6 +98,9 @@
       }
     }
     @media (max-width: 600px) {
+      .container {
+        padding: 0.5em;
+      }
       .profile {
         padding: 12px;
         border-radius: 8px;
@@ -108,49 +125,48 @@
         </p>
       </div>
     </div>
+
+    <h3>About Me</h3>
+    <p>
+      I am an Assistant Professor of Operations Management at The Hong Kong Polytechnic University. 
+      My primary research interests lie in the field of supply chain and operations management. 
+      As an empiricist, I am passionate in applying and developing data science tools to solve novel challenges in business. 
+      I obtained my Ph.D. degree from School of Management, Zhejiang University in 2021.
+    </p>
+
+    <h3>Publication</h3>
+    <ul>
+      <li><strong>1. The Effect of Customer and Supplier Concentrations on Firm Resilience during The COVID‐19 Pandemic: Resource Dependence and Power Balancing.</strong> <em>Journal of Operations Management, 2023</em>, with Andy, C.L, Yeung., Han, Z., Huo, B.</li>
+      <li><strong>2. Rigidity in Crisis: The Impact of OHSAS 18001 Certification on Production Repurposing in COVID-19.</strong> <em>Production and Operations Management, 2025</em>, with Ye, Y., Fan, D., Huo, B., Liu, M.</li>
+      <li><strong>3. Manufacturing Servitization and Bullwhip Effect.</strong> <em>Management Science, 2025</em>, with Niu, Y., Wu, Jing., and Jiang Z.</li>
+      <li><strong>4. Public Utility Obstacles and Productivity Growth: The Moderating Effect of National Culture.</strong>  <em>Journal of Operations Management, 2024</em>, with He, H., Liu, X., Huo, B.</li>
+      <li><strong>5. Vendor Selection in the Wake of Data Breach: a Longitudinal Study.</strong>  <em>Journal of Operations Management, 2024</em>, with Wang, Q., Ngai, E., Huo, B.</li>
+      <li><strong>6. Impact of Information Provision and Technique Support on Patient No-Shows.</strong> <em>Production and Operations Management, 2024</em>, with Hu M., Qiu, L., Jin, Y., Duan, Y.</li>
+      <li><strong>7. Impact of Data Breach on IT Investment: Embracing both Failure Learning and Threat Rigidity.</strong> <em>Production and Operations Management, 2025</em>, with Wang, Q., Jin, Y., Peng, C.H.</li>
+      <li><strong>8. Remote Learning and Educational Inequality.</strong> <em>Production and Operations Management, 2024</em>, with Zhanzhi Zheng and Ruomeng Cui.</li>
+    </ul>
+
+    <h3>Under Revision</h3>
+    <ul>
+      <li><strong>9. The Environmental Impact of Sharing Economies: Evidence from Dockless Bike Entry.</strong> <em>Production and Operations Management, Major Revision</em>, with Liu, Q., Qiu, L., Huo, B.</li>
+      <li><strong>10. Does Green Supplier Make Customer Greener? The Moderating Effect of Dependence in Customer-Supplier Dyads.</strong>  <em>Manufacturing & Service Operations Management, Under 3rd Round Review</em>, with Zhao, X., Ye, Y., Huo, B.</li>
+      <li><strong>11. From Seeing to Signing Up: The Co-Creative Dance of Humans and AI in Cultivating Symbiotic Uniqueness for Enhanced User Engagement.</strong> <em>Under 2nd Major Revision at Information System Research</em>, with Lakhiwal, A., Liu, C., Duan, J.</li>
+      <li><strong>12. The Roles of GPOs on Hospitals’ Operational Costs: A Complementary Institutional Logic Perspective.</strong> <em>Under Major Revision at Management Science</em>, with Wang, K., Yeung, A.C.L.</li>
+      <li><strong>13. Rumors, Worker Productivity, and Team Performance.</strong> <em>Under Major Revision at Management Science</em>, with Zheng, Z., Staats, B.</li>
+      <li><strong>14. Work from Home or Return to Office? The Long-term Impact of Work-from-Home Arrangements on Firms’ Operational Efficiency.</strong> <em>Under Major Revision at Production and Operations Management</em>, with Wang, K., Yeung, A.C.L., Cheung, T.C.E., Huo, B.</li>
+    </ul>
+
+    <h3>Working Paper</h3>
+    <ul>
+      <li><strong>15. Video-Based AI Misconduct Monitoring: Unintended Consequences on Operational Outcomes.</strong>  <em>Under Review at Management Science</em>, with Zheng Z., Xu Y., and Brad Staats.</li>
+    </ul>
+
+    <h3>Other Publication</h3>
+    <ul>
+      <li><strong>Patterns of IT use:</strong> the impact on green supply chain management and firm performance. <em>Industrial Management & Data Systems, 2020</em>, with Han, Z., Huo, B.</li>
+      <li><strong>Does corporate social responsibility conduce to the mitigation of liability of newness? Evidence from China.</strong> <em>Small Business Economics, 2021</em>, with Yan Z., Wei, J.</li>
+    </ul>
+
   </div>
-</body>
-
-  <h3>About Me</h3>
-  <p>
-    I am an Assistant Professor of Operations Management at The Hong Kong Polytechnic University. 
-    My primary research interests lie in the field of supply chain and operations management. 
-    As an empiricist, I am passionate in applying and developing data science tools to solve novel challenges in business. 
-    I obtained my Ph.D. degree from School of Management, Zhejiang University in 2021.
-  </p>
-
-  <h3>Publication</h3>
-  <ul>
-    <li><strong>1. The Effect of Customer and Supplier Concentrations on Firm Resilience during The COVID‐19 Pandemic: Resource Dependence and Power Balancing.</strong> <em>Journal of Operations Management, 2023</em>, with Andy, C.L, Yeung., Han, Z., Huo, B.</li>
-    <li><strong>2. Rigidity in Crisis: The Impact of OHSAS 18001 Certification on Production Repurposing in COVID-19.</strong> <em>Production and Operations Management, 2025</em>, with Ye, Y., Fan, D., Huo, B., Liu, M.</li>
-    <li><strong>3. Manufacturing Servitization and Bullwhip Effect.</strong> <em>Management Science, 2025</em>, with Niu, Y., Wu, Jing., and Jiang Z.</li>
-    <li><strong>4. Public Utility Obstacles and Productivity Growth: The Moderating Effect of National Culture.</strong>  <em>Journal of Operations Management, 2024</em>, with He, H., Liu, X., Huo, B.</li>
-    <li><strong>5. Vendor Selection in the Wake of Data Breach: a Longitudinal Study.</strong>  <em>Journal of Operations Management, 2024</em>, with Wang, Q., Ngai, E., Huo, B.</li>
-    <li><strong>6. Impact of Information Provision and Technique Support on Patient No-Shows.</strong> <em>Production and Operations Management, 2024</em>, with Hu M., Qiu, L., Jin, Y., Duan, Y.</li>
-    <li><strong>7. Impact of Data Breach on IT Investment: Embracing both Failure Learning and Threat Rigidity.</strong> <em>Production and Operations Management, 2025</em>, with Wang, Q., Jin, Y., Peng, C.H.</li>
-    <li><strong>8. Remote Learning and Educational Inequality.</strong> <em>Production and Operations Management, 2024</em>, with Zhanzhi Zheng and Ruomeng Cui.</li>
-  </ul>
-
-  <h3>Under Revision</h3>
-  <ul>
-    <li><strong>9. The Environmental Impact of Sharing Economies: Evidence from Dockless Bike Entry.</strong> <em>Production and Operations Management, Major Revision</em>, with Liu, Q., Qiu, L., Huo, B.</li>
-    <li><strong>10. Does Green Supplier Make Customer Greener? The Moderating Effect of Dependence in Customer-Supplier Dyads.</strong>  <em>Manufacturing & Service Operations Management, Under 3rd Round Review</em>, with Zhao, X., Ye, Y., Huo, B.</li>
-    <li><strong>11. From Seeing to Signing Up: The Co-Creative Dance of Humans and AI in Cultivating Symbiotic Uniqueness for Enhanced User Engagement.</strong> <em>Under 2nd Major Revision at Information System Research</em>, with Lakhiwal, A., Liu, C., Duan, J.</li>
-    <li><strong>12. The Roles of GPOs on Hospitals’ Operational Costs: A Complementary Institutional Logic Perspective.</strong> <em>Under Major Revision at Management Science</em>, with Wang, K., Yeung, A.C.L.</li>
-    <li><strong>13. Rumors, Worker Productivity, and Team Performance.</strong> <em>Under Major Revision at Management Science</em>, with Zheng, Z., Staats, B.</li>
-    <li><strong>14. Work from Home or Return to Office? The Long-term Impact of Work-from-Home Arrangements on Firms’ Operational Efficiency.</strong> <em>Under Major Revision at Production and Operations Management</em>, with Wang, K., Yeung, A.C.L., Cheung, T.C.E., Huo, B.</li>
-  </ul>
-
-  <h3>Working Paper</h3>
-  <ul>
-    <li><strong>15. Video-Based AI Misconduct Monitoring: Unintended Consequences on Operational Outcomes.</strong>  <em>Under Review at Management Science</em>, with Zheng Z., Xu Y., and Brad Staats.</li>
-  </ul>
-
-  <h3>Other Publication</h3>
-  <ul>
-    <li><strong>Patterns of IT use:</strong> the impact on green supply chain management and firm performance. <em>Industrial Management & Data Systems, 2020</em>, with Han, Z., Huo, B.</li>
-    <li><strong>Does corporate social responsibility conduce to the mitigation of liability of newness? Evidence from China.</strong> <em>Small Business Economics, 2021</em>, with Yan Z., Wei, J.</li>
-  </ul>
-
 </body>
 </html>
