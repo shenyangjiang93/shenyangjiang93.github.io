@@ -67,11 +67,12 @@
       align-items: center;
       gap: 32px;
       padding: 32px;
-      max-width: 1100px;   /* 增大卡片最大宽度 */
+      max-width: 1100px;
       margin: 40px auto;
       background: #fafafa;
       border-radius: 16px;
       box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      justify-content: center; /* 让内容横向居中 */
     }
     .profile img {
       width: 200px;
@@ -83,8 +84,9 @@
       flex-shrink: 0;
     }
     .profile > div {
-      flex: 1; /* 让文字区域自适应扩展 */
+      flex: 1;
       min-width: 0;
+      text-align: center; /* 让内容居中 */
     }
     .profile p {
       margin: 10px 0;
@@ -103,7 +105,7 @@
     @media (max-width: 900px) {
       .profile {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 18px;
         padding: 24px;
         max-width: 98vw;
@@ -111,6 +113,9 @@
       .profile img {
         width: 120px;
         height: 120px;
+      }
+      .profile > div {
+        text-align: center;
       }
     }
     @media (max-width: 600px) {
